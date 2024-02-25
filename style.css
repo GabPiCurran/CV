@@ -1,0 +1,126 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #f9f9f9;
+
+}
+
+main {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-gap: 1rem;
+}
+
+.left {
+    background-color: #D3D3D3;
+    overflow: auto;
+    
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.osobni, 
+.dovednosti,
+.jazyky,
+.kurzy {
+    padding: 1rem;
+    font-size: 20px;
+}
+
+
+.selfie img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+
+.selfie h2 {
+    text-align: center;
+}
+
+
+/* Prava strana stranky */
+
+.right {
+    background-color: #E5E4E2;
+    padding: 1rem;
+    filter: drop-shadow(0 0 0.2rem black)
+}
+
+.datum1,
+.datum2,
+.datum3,
+.datum4 {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.pozice1,
+.pozice2,
+.pozice3,
+.pozice4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.popis1,
+.popis2,
+.popis3,
+.popis4 {
+    text-align: justify;
+    
+}
+
+.vzdelani {
+    padding-top: 5rem;
+}
+
+.datum5,
+.datum6 {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.skola,
+.skola2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.summary h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.summary p {
+    text-align: justify;
+    padding-top: 10px;
+}
+header {
+    text-align: center;
+    background-color: #A9A9A9; 
+    padding: 5px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    background-color: #A9A9A9;
+    padding: 5px;
+    margin: 20px;
+}
